@@ -1,0 +1,40 @@
+/*remove now playing*/
+.nowPlayingColumn-1eCBCN {
+    display: none;
+}
+
+/*remove nitro button*/
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) {
+    display: none;
+}
+
+/*remove question mark*/
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.container-2cd8Mz > section > div.toolbar-3_r2xA > a, #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a {
+    display: none;
+}
+
+/*remove gift button in conversations*/
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div.scrollableContainer-15eg7h.webkit-QgSAqd > div > div.buttons-uaqb-5 > button {
+    display: none
+}
+
+/*remove stickers button in conversation */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div.scrollableContainer-15eg7h.webkit-QgSAqd > div > div.buttons-uaqb-5 > div:nth-child(4) {
+    display: none;
+}
+
+
+/*server button styling*/
+div[aria-label="Servers"] foreignObject {
+    border-radius: 5px;
+}
+div[aria-label="Servers"] mask{
+    display: none;
+}
+
+ul[role="group"] {
+    border-radius: 5px;
+}
+div[role="treeitem"] > div {
+    border-radius: 5px;
+}
